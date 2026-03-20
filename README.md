@@ -75,8 +75,33 @@ This is a critical part of the system, especially considering the spoofing scena
 
 To prevent fake claims while ensuring genuine workers are not affected.
 
+## Adversarial Defense & Anti-Spoofing Strategy
 
-### How We Detect Fraud
+To prevent GPS spoofing and coordinated fraud, our system does not rely on location alone. Instead, we look at overall user behavior, activity patterns, and regional consistency to understand whether a claim is genuine or manipulated.
+
+### 1. The Differentiation
+
+We differentiate between a real worker and a spoofed user by analyzing how they behave over time, not just where they appear to be.
+
+A genuine worker usually:
+
+- has consistent delivery activity before the disruption
+- shows a gradual drop in earnings as conditions worsen
+- follows realistic movement and app usage patterns
+- behaves similarly to other workers in the same area
+
+A fraudulent user usually:
+
+- suddenly appears in a high-risk zone
+- has little or no recent delivery activity
+- shows unrealistic or static movement
+- behaves very differently from nearby workers
+
+The idea is simple: if the behavior doesn’t match real-world conditions, it gets flagged.
+
+### 2. The Data
+
+**How We Detect Fraud**
 
 Instead of relying only on GPS, we use multiple data signals:
 
@@ -99,7 +124,7 @@ A fraudulent user:
 - shows no real delivery activity
 - differs significantly from nearby workers
 
-### AI Approach
+### 3. AI Approach
 
 We plan to use:
 
@@ -107,7 +132,11 @@ We plan to use:
 - clustering to compare workers in the same region
 - rule-based validation for environmental triggers
 
-### Handling Edge Cases
+### 4. The UX Balance
+
+We don’t want genuine workers to suffer because of strict fraud checks.
+
+**Handling Edge Cases**
 
 1. We avoid directly rejecting claims.
 2. If a claim is suspicious:
@@ -116,15 +145,12 @@ We plan to use:
   - re-evaluate using additional data
 This ensures fairness.
 
-### Adversarial Defense and Anti-Spoofing Strategy
+This is important because:
 
-To handle coordinated fraud attacks:
-
-1. Cross verify user data with regional patterns
-2. Detect clusters of similar suspicious activity
-3. Identify synchronized fake claims
-4. Monitor sudden spikes in claims from the same location
-This helps prevent large-scale exploitation of the system.
+- network issues are common during bad weather
+- GPS can be inaccurate
+- real users can also behave irregularly during disruptions
+We follow a verify-first approach before taking any rejection decision.
 
 ## Technical Architecture
 
