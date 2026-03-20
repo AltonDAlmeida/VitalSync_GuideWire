@@ -1,4 +1,5 @@
-# AI Powered Parametric Insurance for Food Delivery Workers
+# Trustroute
+## AI Powered Parametric Insurance for Food Delivery Workers
 AI-powered micro-insurance platform for gig workers with dynamic risk assessment and secure digital payments.
 
 ## Inspiration
