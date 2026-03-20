@@ -25,7 +25,7 @@ The key idea is that workers should not have to manually claim insurance. The sy
 
 The system works in three layers:
 
-### 1. Earnings Optimization
+**1. Earnings Optimization**
 
 During manageable disruptions, workers are guided to:
 
@@ -33,11 +33,11 @@ During manageable disruptions, workers are guided to:
 - safer zones
 - higher demand areas
 
-### 2. Risk Compensation
+**2. Risk Compensation**
 
 Workers receive additional incentives during difficult conditions such as heavy rain or heat.
 
-### 3. Insurance Protection
+**3. Insurance Protection**
 
 During severe disruptions like floods, the system activates a disaster mode where:
 
