@@ -154,32 +154,27 @@ This helps prevent large-scale exploitation of the system.
 
 ## Payment System Design
 
-**How Payments Work**
-
+**How Payments Work** 
 1. Workers pay a weekly premium
 2. System maintains an insurance pool
 3. Payouts are triggered automatically based on conditions
 
-**Payment Security**
-
+**Payment Security** 
 We plan to integrate secure payment gateways such as:
  Razorpay
  Stripe
 
-**Security measures include:**
-
+**Security measures** 
 - tokenized transactions
 - encrypted communication
 - no storage of sensitive card details
 
-**Data Storage**
-
+**Data Storage** 
 - Payment records stored in PostgreSQL
 - Sensitive data handled by payment gateway
 - Only transaction references stored in our system
 
-**Payout Handling**
-
+**Payout Handling** 
 - Payouts triggered automatically
 - Sent via UPI or bank transfer APIs
 - Logged for audit and transparency
@@ -190,12 +185,12 @@ Since real platform data is not available, we use simulated datasets.
 
 Data Includes:
 
-1. worker ID
-2. city
-3. expected income
-4. actual income
-5. working hours
-6. environmental conditions
+- worker ID
+- city
+- expected income
+- actual income
+- working hours
+- environmental conditions
 
 Usage
 
