@@ -131,6 +131,7 @@ We don’t want genuine workers to suffer because of strict fraud checks.
    - mark as under review
    - allow partial payout
    - re-evaluate using additional data
+     
 This ensures fairness.
 
    This is important because:
@@ -138,6 +139,7 @@ This ensures fairness.
    - network issues are common during bad weather
    - GPS can be inaccurate
    - real users can also behave irregularly during disruptions
+     
 We follow a verify-first approach before taking any rejection decision.
 
 ## Technical Architecture
