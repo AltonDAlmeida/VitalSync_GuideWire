@@ -112,18 +112,6 @@ Instead of relying only on GPS, we use multiple data signals:
 - comparison with nearby workers
 - regional demand patterns
 
-**Example Logic**
-
-A genuine worker:
-- shows regular delivery activity
-- has gradual income drop during disruption
-- matches regional trends
-
-A fraudulent user:
-- suddenly appears in high-risk zone
-- shows no real delivery activity
-- differs significantly from nearby workers
-
 ### 3. AI Approach
 
 We plan to use:
@@ -139,10 +127,10 @@ We don’t want genuine workers to suffer because of strict fraud checks.
 **Handling Edge Cases**
 
 1. We avoid directly rejecting claims.
-2. If a claim is suspicious:
-  - mark as under review
-  - allow partial payout
-  - re-evaluate using additional data
+2. If a claim is suspicious
+   - mark as under review
+   - allow partial payout
+   - re-evaluate using additional data
 This ensures fairness.
 
 This is important because:
