@@ -154,7 +154,8 @@ This helps prevent large-scale exploitation of the system.
 
 ## Payment System Design
 
-How Payments Work
+**How Payments Work**
+
 1. Workers pay a weekly premium
 2. System maintains an insurance pool
 3. Payouts are triggered automatically based on conditions
@@ -170,9 +171,8 @@ Stripe
 - tokenized transactions
 - encrypted communication
 - no storage of sensitive card details
-- 
 
-### Data Storage
+**Data Storage**
 
 - Payment records stored in PostgreSQL
 - Sensitive data handled by payment gateway
