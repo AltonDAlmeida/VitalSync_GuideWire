@@ -129,29 +129,30 @@ This helps prevent large-scale exploitation of the system.
 ## Technical Architecture
 
 **Frontend**
-React Native for mobile application
-Simple interface for workers to view earnings, risk, and payouts
+- React Native for mobile application
+- Simple interface for workers to view earnings, risk, and payouts
 
 **Backend**
-Node.js with NestJS for structured API development
-Handles business logic, risk evaluation, and payouts
+- Node.js with NestJS for structured API development
+- Handles business logic, risk evaluation, and payouts
 
 **Database**
-PostgreSQL for structured data storage
-Stores user data, earnings history, policies, and transactions
+- PostgreSQL for structured data storage
+- Stores user data, earnings history, policies, and transactions
 
 **Real-Time Processing**
-Redis for caching and handling real-time event updates
+- Redis for caching and handling real-time event updates
 
 **AI and Data Processing**
-Python for machine learning models
-Libraries such as scikit-learn, pandas, NumPy
+- Python for machine learning models
+- Libraries such as scikit-learn, pandas, NumPy
 
 **External APIs**
-Weather data using OpenWeather API
-Location services using Google Maps API
+- Weather data using OpenWeather API
+- Location services using Google Maps API
 
-### Payment System Design
+
+## Payment System Design
 
 How Payments Work
 1. Workers pay a weekly premium
@@ -159,8 +160,8 @@ How Payments Work
 3. Payouts are triggered automatically based on conditions
 
 **Payment Security**
- We plan to integrate secure payment gateways such as:
 
+We plan to integrate secure payment gateways such as:
 Razorpay
 Stripe
 
@@ -169,6 +170,7 @@ Stripe
 - tokenized transactions
 - encrypted communication
 - no storage of sensitive card details
+- 
 
 ### Data Storage
 
