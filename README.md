@@ -1,6 +1,8 @@
 # VitalSync_GuideWire
 AI-powered micro-insurance platform for gig workers with dynamic risk assessment and secure digital payments.
-Inspiration
+
+# Inspiration
+
 We started with a simple observation. Delivery partners working on platforms like Swiggy and Zomato are highly dependent on daily earnings, but they have no protection when external conditions like heavy rain, floods, or extreme heat affect their work.
 
 Initially, the idea was just to build an insurance system. But after analyzing the problem deeper, especially the fraud scenario involving GPS spoofing, we realized that the real challenge is not just payouts, but building a system that is both fair and secure.
