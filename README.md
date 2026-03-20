@@ -159,8 +159,8 @@ This helps prevent large-scale exploitation of the system.
 2. System maintains an insurance pool
 3. Payouts are triggered automatically based on conditions
 
-**Payment Security** 
-We plan to integrate secure payment gateways such as:
+**Payment Security**
+ We plan to integrate secure payment gateways such as
  Razorpay
  Stripe
 
