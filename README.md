@@ -160,9 +160,9 @@ This helps prevent large-scale exploitation of the system.
 3. Payouts are triggered automatically based on conditions
 
 **Payment Security**
-We plan to integrate secure payment gateways such as
-Razorpay
-Stripe
+- We plan to integrate secure payment gateways such as
+   - Razorpay
+   - Stripe
 
 **Security measures** 
 - tokenized transactions
