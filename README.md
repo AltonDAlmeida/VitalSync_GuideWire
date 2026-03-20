@@ -1,7 +1,7 @@
 # AI Powered Parametric Insurance for Food Delivery Workers
 AI-powered micro-insurance platform for gig workers with dynamic risk assessment and secure digital payments.
 
-# Inspiration
+## Inspiration
 
 We started with a simple observation. Delivery partners working on platforms like Swiggy and Zomato are highly dependent on daily earnings, but they have no protection when external conditions like heavy rain, floods, or extreme heat affect their work.
 
@@ -21,11 +21,11 @@ This is a parametric insurance system designed for food delivery workers that:
 
 The key idea is that workers should not have to manually claim insurance. The system calculates everything based on real-world signals.
 
-# Core Concept
+## Core Concept
 
 The system works in three layers:
 
-# 1. Earnings Optimization
+### 1. Earnings Optimization
 
 During manageable disruptions, workers are guided to:
 
@@ -33,18 +33,18 @@ During manageable disruptions, workers are guided to:
 - safer zones
 - higher demand areas
 
-# 2. Risk Compensation
+### 2. Risk Compensation
 
 Workers receive additional incentives during difficult conditions such as heavy rain or heat.
 
-# 3. Insurance Protection
+### 3. Insurance Protection
 
 During severe disruptions like floods, the system activates a disaster mode where:
 
 - work is paused
 - income is replaced through automated payouts
 
-# System Workflow
+## System Workflow
 
 1. Collect environmental data (weather, alerts)
 2. Track worker activity and earnings
@@ -55,15 +55,15 @@ During severe disruptions like floods, the system activates a disaster mode wher
  - or payout
 5. Trigger automatic payout if income loss exceeds threshold
 
-# AI Risk Assessment and Fraud Detection
+### AI Risk Assessment and Fraud Detection
 
 This is a critical part of the system, especially considering the spoofing scenario.
 
-# Goal
+### Goal
 
 To prevent fake claims while ensuring genuine workers are not affected.
 
-# How We Detect Fraud
+## How We Detect Fraud
 
 Instead of relying only on GPS, we use multiple data signals:
 
@@ -74,7 +74,7 @@ Instead of relying only on GPS, we use multiple data signals:
 - comparison with nearby workers
 - regional demand patterns
 
-# Example Logic
+### Example Logic
 
 A genuine worker:
 - shows regular delivery activity
@@ -86,7 +86,7 @@ A fraudulent user:
 - shows no real delivery activity
 - differs significantly from nearby workers
 
-# AI Approach
+## AI Approach
 
 We plan to use:
 
@@ -94,7 +94,7 @@ We plan to use:
 - clustering to compare workers in the same region
 - rule-based validation for environmental triggers
 
-# Handling Edge Cases
+## Handling Edge Cases
 
 1. We avoid directly rejecting claims.
 2. If a claim is suspicious:
@@ -103,7 +103,7 @@ We plan to use:
   - re-evaluate using additional data
 This ensures fairness.
 
-# Adversarial Defense and Anti-Spoofing Strategy
+## Adversarial Defense and Anti-Spoofing Strategy
 
 To handle coordinated fraud attacks:
 
@@ -113,63 +113,63 @@ To handle coordinated fraud attacks:
 4. Monitor sudden spikes in claims from the same location
 This helps prevent large-scale exploitation of the system.
 
-# Technical Architecture
+## Technical Architecture
 
-# Frontend
+### Frontend
 React Native for mobile application
 Simple interface for workers to view earnings, risk, and payouts
 
-# Backend
+### Backend
 Node.js with NestJS for structured API development
 Handles business logic, risk evaluation, and payouts
 
-# Database
+### Database
 PostgreSQL for structured data storage
 Stores user data, earnings history, policies, and transactions
 
-# Real-Time Processing
+### Real-Time Processing
 Redis for caching and handling real-time event updates
 
-# AI and Data Processing
+### AI and Data Processing
 Python for machine learning models
 Libraries such as scikit-learn, pandas, NumPy
 
-# External APIs
+### External APIs
 Weather data using OpenWeather API
 Location services using Google Maps API
 
-# Payment System Design
+## Payment System Design
 How Payments Work
 
 1. Workers pay a weekly premium
 2. System maintains an insurance pool
 3. Payouts are triggered automatically based on conditions
 
-# Payment Security
+### Payment Security
  We plan to integrate secure payment gateways such as:
 
 Razorpay
 Stripe
 
-# Security measures include:
+### Security measures include:
 
 - tokenized transactions
 - encrypted communication
 - no storage of sensitive card details
 
-# Data Storage
+## Data Storage
 
 - Payment records stored in PostgreSQL
 - Sensitive data handled by payment gateway
 - Only transaction references stored in our system
 
-# Payout Handling
+## Payout Handling
 
 - Payouts triggered automatically
 - Sent via UPI or bank transfer APIs
 - Logged for audit and transparency
 
-# Data Strategy
+## Data Strategy
 
 Since real platform data is not available, we use simulated datasets.
 
@@ -188,14 +188,14 @@ Usage
 - test payout logic
 - validate fraud detection
 
-# Challenges Identified
+## Challenges Identified
 
 - making the system realistic without relying on external jobs
 - handling extreme cases like floods
 - preventing fraud without penalizing genuine users
 - balancing automation and fairness
 
-# Future Scope
+## Future Scope
 
 - integrate real delivery platform data
 - improve AI models
