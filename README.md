@@ -44,16 +44,28 @@ During severe disruptions like floods, the system activates a disaster mode wher
 - work is paused
 - income is replaced through automated payouts
 
-## System Workflow
+## ⚙️ System Workflow
 
-1. Collect environmental data (weather, alerts)
-2. Track worker activity and earnings
-3. Classify situation into normal, moderate, or severe disruption
-4. Apply appropriate logic:
- - optimization
- - incentives
- - or payout
-5. Trigger automatic payout if income loss exceeds threshold
+1. **Collect Environmental Data**
+   - Weather conditions  
+   - Real-time alerts  
+
+2. **Track Worker Activity**
+   - Job activity  
+   - Earnings data  
+
+3. **Classify Situation**
+   - Normal  
+   - Moderate disruption  
+   - Severe disruption  
+
+4. **Apply Decision Logic**
+   - Route optimization  
+   - Incentive allocation  
+   - Insurance payout calculation  
+
+5. **Trigger Smart Actions**
+   - Automatic payout if income loss exceeds threshold
 
 ### AI Risk Assessment and Fraud Detection
 
